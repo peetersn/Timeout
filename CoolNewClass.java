@@ -15,7 +15,7 @@ public class CoolNewClass {
         try {
             System.out.println("Adding system outs, just because I can");
         } catch (Exception e) {
-            //Swallow!
+            throw new RuntimeException(e);
         }
     }
 }
