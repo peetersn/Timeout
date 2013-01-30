@@ -8,4 +8,10 @@ package com.myapp.service.aop;
 public class CoolNewClass {
 
     private int numberOfProblems = 99;
+
+    private int anotherProperty;
+
+    public void test() {
+
+    }
 }
