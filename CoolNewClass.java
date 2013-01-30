@@ -12,6 +12,10 @@ public class CoolNewClass {
     private int anotherProperty;
 
     public void test() {
-
+        try {
+            System.out.println("Adding system outs, just because I can");
+        } catch (Exception e) {
+            //Swallow!
+        }
     }
 }
